@@ -1,0 +1,76 @@
+button {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border: 1px solid white;
+  padding: 14px;
+}
+p {
+  font-size: 20px;
+}
+h1 {
+  font-size: 45px;
+}
+/* div.gym {
+  height: 500px;
+} */
+
+/* 4th section */
+div.jalim {
+  padding: 100px 0px;
+  text-align: center;
+  color: white;
+}
+section.get-started {
+  filter: brightness(0.6);
+}
+/* 12th section */
+ul.vol {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 576px) {
+  div.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  p.go {
+    text-align: center;
+  }
+  h1.co {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  p.go {
+    text-align: center;
+  }
+  h1.co {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 992px) {
+  div.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  p.go {
+    text-align: center;
+  }
+  h1.co {
+    font-size: 60px;
+    text-align: center;
+  }
+}
